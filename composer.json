@@ -1,0 +1,21 @@
+{
+  "name": "fsalehpour/laravel-stub-fetcher",
+  "description": "A helper package for providing stub responses for laravel",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Faramarz Salehpour",
+      "email": "subs@marz.co"
+    }
+  ],
+  "require": {
+    "ext-json": "*",
+    "illuminate/http": "5.8.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "LaravelStubs\\": "src/"
+    }
+  }
+}
